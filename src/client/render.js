@@ -366,7 +366,7 @@ function renderPlayerEntity(player, playerId, isClone) {
 
     ctx.globalAlpha = 1;
 
-	ctx.drawImage(hat, pos.x - player.radius*1.5, pos.y - player.radius*1.5, player.radius*3, player.radius*3)
+	// ctx.drawImage(hat, pos.x - player.radius*1.5, pos.y - player.radius*1.5, player.radius*3, player.radius*3)
 
     if (
         playerId !== selfId &&

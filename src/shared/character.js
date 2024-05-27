@@ -209,4 +209,8 @@ const Character = {
     //  	},
 };
 
-module.exports = Character;
+try { 
+    module.exports = Character;
+} catch {
+    
+}
